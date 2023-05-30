@@ -26,11 +26,13 @@ button {
 .gallery {
   list-style: none;
   display: flex;
-  gap: 10px;
-
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  gap: 50px;
 }
 
-/* .list-item {
-  margin: 0;
-  padding: 0;
-} */
+ .image {
+  display: block;
+  object-fit: contain;
+} 
